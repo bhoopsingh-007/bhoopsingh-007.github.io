@@ -6,11 +6,10 @@ Welcome to my portfolio! 🚀 This showcases my skills in Full Stack Development
 - **📍 Location:** Jaipur, Rajasthan, India  
 - **📧 Email:** [jassisuthar8555@gmail.com](mailto:jassisuthar8555@gmail.com)  
 - **📞 Phone:** [+91 77348-55403](tel:+917734855403)  
-- **🌍 Live Demo:** [Your Portfolio URL]  
 
 ## 🛠 Tech Stack  
 - Laravel, PHP, MySQL  
-- JavaScript, Vue.js, React  
+- JavaScript, JQuery  
 - HTML, CSS, Bootstrap  
 - API Development, Authentication, Role-Based Access Control  
 
