@@ -1443,19 +1443,15 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
 .cv-btn {
-  background-color: #34b7a7;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 20px;
+  background-color: #ffff;
+  color: #000;
+  padding: 7px 15px;
+  border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
-  margin-left: 20px; /* Adjust spacing */
+  margin-left: 50px; /* Adjust spacing */
 }
 
 .cv-btn:hover {
