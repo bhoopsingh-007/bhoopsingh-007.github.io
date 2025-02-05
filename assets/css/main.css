@@ -1444,14 +1444,21 @@ section,
 # Starter Section Section
 --------------------------------------------------------------*/
 .cv-btn {
-  background-color: #ffff;
-  color: #000;
-  padding: 7px 15px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
+  cursor: pointer;
   display: inline-block;
-  margin-left: 50px; /* Adjust spacing */
+  padding: 8px 20px 10px 20px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--heading-font);
+  /* background-color: #34b7a7; */
+  /* color: #fff; */
+  text-decoration: none;
+  float: right;
 }
 
 .cv-btn:hover {
