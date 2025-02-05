@@ -1455,8 +1455,6 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   font-family: var(--heading-font);
-  /* background-color: #34b7a7; */
-  /* color: #fff; */
   text-decoration: none;
   float: right;
 }
