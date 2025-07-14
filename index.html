@@ -5,17 +5,18 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Bhoop Singh</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -32,97 +33,184 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex flex-column justify-content-center">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/favicon.png" alt="">
+        <h1 class="sitename">Bhoop Singh</h1>
+      </a>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
+      <div class="header-social-links">
+        <a href="https://join.skype.com/invite/s22pYKg61NjJ" class="twitter"><i class="bi bi-skype"></i></a>
+        <a href="https://www.facebook.com/jassi.suthar/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/jassi_suthar_007" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/bhoop-singh" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
+    <section id="hero" class="hero section">
 
-      <img src="assets/img/mac.jpg" alt="">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Bhoop Singh</h2>
-            <p>I'm <span class="typed" data-typed-items="Laravel Developer, Freelancer"></span><span
-                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/bhoop-singh"><i class="bi bi-linkedin"></i></a>
-              <a href="https://join.skype.com/invite/s22pYKg61NjJ"><i class="bi bi-skype"></i></a>
-              <a href="https://www.instagram.com/jassi_suthar_007"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.facebook.com/jassi.suthar/"><i class="bi bi-facebook"></i></a>
+        <div class="row align-items-center content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h2>Building Digital Solutions with Precision & Passion</h2>
+            <p class="lead">
+              I transform ideas into intuitive, efficient, and elegant web experiences through modern
+              design and robust development.
+            </p>
+            </p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="btn btn-primary">Explore My Work</a>
+              <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+              <div class="stat-item">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Years of Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Completed Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Satisfied Clients</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img src="assets/img/profile/profile-1.webp" alt="Portfolio Hero Image" class="img-fluid"
+                data-aos="zoom-out" data-aos-delay="300">
+              <div class="shape-1"></div>
+              <div class="shape-2"></div>
             </div>
           </div>
         </div>
+
       </div>
 
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
         <p>Experienced Laravel developer with 1.5 years of expertise in building robust web applications.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+        <div class="row align-items-center">
+          <div class="col-lg-6 position-relative" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-image">
+              <img src="assets/img/profile/profile-img.jpg" alt="Profile Image" class="img-fluid rounded-4">
+            </div>
           </div>
-          <div class="col-lg-8 content">
-            <h2 style="display: inline-block;">Laravel PHP Developer</h2>
-            <a href="assets/cv/BhoopSingh-Resume.pdf" download class="cv-btn"><i class="bi bi-download"></i> Resume</a>
-            <p class="fst-italic py-3">
-              Passionate about writing clean, efficient, and maintainable code using Laravel and PHP. Skilled in
-              database management, authentication systems, and API development.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>07 July 2001</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://bhoopsingh-007.github.io/">bhoopsingh-007.github.io</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 77348-55403</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Jaipur, Rajasthan, India</span>
-                  </li>
-                </ul>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <span class="subtitle">About Me</span>
+
+              <h2>Laravel &amp; PHP Developer</h2>
+
+              <p class="lead mb-4">Passionate about writing clean, efficient, and maintainable code using Laravel and
+                PHP. Skilled in database management, authentication systems, and API development.</p>
+
+              <p class="mb-4">
+                Focused on building fast, secure, and user-friendly web apps.
+              </p>
+
+              <div class="personal-info">
+                <div class="row g-4">
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Name</span>
+                      <span class="value">Bhoop Singh</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Phone</span>
+                      <span class="value">+91 77348-55403</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">DOB</span>
+                      <span class="value">07 July 2001</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Email</span>
+                      <span class="value">jassisuthar8555@gmail.com</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Occupation</span>
+                      <span class="value">Laravel &amp; PHP Developer</span>
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="info-item">
+                      <span class="label">Nationality</span>
+                      <span class="value">Indian</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>jassisuthar8555@gmail.com</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
+
+              <div class="signature mt-4">
+                <div class="signature-image">
+                  <img src="assets/img/misc/signature-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="signature-info">
+                  <h4>Bhoop Singh</h4>
+                  <p>Laravel &amp; PHP Developer</p>
+                </div>
+                <div class="cta-buttons aos-init aos-animate">
+                  <a href="assets/cv/BhoopSingh-Resume.pdf" download="" class="btn btn-outline"><i
+                      class="bi bi-download"></i>
+                    Resume</a>
+                </div>
               </div>
             </div>
-            <p class="py-3">
-              Experienced in developing dynamic web applications, working with MySQL databases, and implementing
-              authentication using Laravel Sanctum and Passport.
-              Familiar with integrating third-party APIs, managing role-based access control, and optimizing backend
-              performance.
-              Passionate about continuous learning and delivering high-quality software solutions.
-            </p>
           </div>
         </div>
 
@@ -130,156 +218,115 @@
 
     </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-people"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hard Workers</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- /Stats Section -->
-
     <!-- Skills Section -->
     <section id="skills" class="skills section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Experienced in web development, specializing in Laravel, PHP, and modern web technologies.</p>
-      </div><!-- End Section Title -->
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row skills-content skills-animation">
+        <div class="row g-4 skills-animation">
 
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Laravel</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>Laravel</h3>
+              <p>Expert in building scalable web apps using Laravel's MVC structure and features.</p>
+              <span class="text-end d-block">85%</span>
+              <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>MySQL</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"><span>JQuery</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3>PHP</h3>
+              <p>Strong understanding of PHP for backend logic, OOP, and custom development.</p>
+              <span class="text-end d-block">80%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>MySQL</h3>
+              <p>Skilled in designing and managing databases, writing complex queries and joins.</p>
+              <span class="text-end d-block">80%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-box">
+              <h3>RESTful APIs</h3>
+              <p>Experienced in designing, consuming, and integrating REST APIs in Laravel apps.</p>
+              <span class="text-end d-block">80%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3>JavaScript</h3>
+              <p>Good knowledge of JavaScript fundamentals and client-side scripting.</p>
+              <span class="text-end d-block">75%</span>
+              <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>Git/GitHub</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>jQuery</h3>
+              <p>Proficient in using jQuery for DOM manipulation and AJAX functionality.</p>
+              <span class="text-end d-block">90%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>RESTful APIs</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-box">
+              <h3>Node.js</h3>
+              <p>Basic experience with Node.js for backend services and API development.</p>
+              <span class="text-end d-block">50%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>Bootstrap CSS</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>Git/GitHub</h3>
+              <p>Comfortable with version control using Git and collaborative workflows on GitHub.</p>
+              <span class="text-end d-block">60%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
-
           </div>
 
         </div>
 
+
       </div>
 
-    </section>
-
-    <!-- /Skills Section -->
+    </section><!-- /Skills Section -->
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
@@ -287,95 +334,169 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
-        <p>Laravel developer with 1.5 years of experience in building scalable web applications, RESTful APIs, and
-          backend solutions. Passionate about developing efficient and secure applications while continuously improving
-          skills in modern web technologies.</p>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Laravel developer with 1.5 years of experience building scalable web apps and RESTful APIs. Focused on
+          writing efficient, secure code and growing with modern web technologies.</p>
+      </div><!-- End Section Title -->
 
-      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container">
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Bhoop Singh</h4>
-              <p><em>Laravel developer with 1.5 years of experience in building scalable web applications, RESTful APIs,
-                  and backend solutions. Passionate about writing clean, maintainable code and optimizing application
-                  performance.</em></p>
-              <ul>
-                <li>Jaipur, Rajasthan, India</li>
-                <li>+91 77348-55403</li>
-                <li>jassisuthar8555@gmail.com</li>
-              </ul>
-            </div>
+          <div class="col-12">
+            <div class="resume-wrapper">
+              <div class="resume-block" data-aos="fade-up">
+                <h2>Work Experience</h2>
+                <p class="lead">Practical experience in building real-world web applications with focus on performance
+                  and best practices.</p>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Arts (MA) in Hindi</h4>
-              <h5>2021 - 2023</h5>
-              <p><em>Maharaja Ganga Singh University, Bikaner</em></p>
-              <p>Gained in-depth knowledge of Hindi literature, linguistics, and creative writing, enhancing analytical
-                and communication skills.</p>
-            </div>
-
-            <div class="resume-item">
-              <h4>RS-CIT (Rajasthan State Certificate in Information Technology)</h4>
-              <h5>Jan 2014 - June 2014</h5>
-              <p><em>Vardhman Mahaveer Open University, Kota</em></p>
-              <p>Completed foundational training in computer applications, including operating systems, internet usage,
-                and basic programming concepts.</p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Laravel Developer</h4>
-              <h5>Feb 2024 - Present</h5>
-              <p><em>Next Big Technology Pvt. Ltd., Jaipur, Rajasthan</em></p>
-              <ul>
-                <li>Developed and maintained scalable web applications using Laravel, PHP, MySQL, and JQuery.</li>
-                <li>Worked on API integrations, authentication systems, and database optimizations to enhance
-                  application performance.</li>
-                <li>Collaborated with front-end developers and designers to deliver user-friendly interfaces.</li>
-              </ul>
-
-              <h5>Key Projects:</h5>
-              <ul>
-                <li><strong>DIGI Homes (Real Estate Platform):</strong> Developed a property listing and booking system
-                  with advanced search filters and user dashboards.</li>
-                <li><strong>School Management System:</strong> Created a comprehensive system for managing students,
-                  teachers, attendance, exams, and reports.</li>
-                <li><strong>WOYE (Multi-Vendor Web & App):</strong> Built a marketplace platform allowing multiple
-                  vendors to list, sell, and manage their products/services online.</li>
-              </ul>
-            </div>
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Next Big Technology Pvt. Ltd., Jaipur, Rajasthan</h4>
+                      <span class="period">Feb, 2024 - Current</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Laravel Developer</h3>
+                      <p class="description">
+                        As a Laravel Developer, I focused on building high-performance, secure, and scalable web
+                        applications. My responsibilities included back-end development, API creation, database design,
+                        and performance optimization using Laravel and related technologies.
+                      </p>
 
 
-            <div class="resume-item">
-              <h4>Laravel Developer</h4>
-              <h5>Jun 2023 - Feb 2024</h5>
-              <p><em>D2 Code Lab Technologies Private Limited, Ellenabad, Haryana</em></p>
-              <ul>
-                <li>Developed and maintained web applications using Laravel, ensuring scalability and security.</li>
-                <li>Implemented role-based access control (RBAC) with custom roles and permissions for secure user
-                  management.</li>
-                <li>Optimized database queries and application performance for better efficiency.</li>
-              </ul>
+                      <ul>
+                        <li>Developed and maintained scalable web applications using Laravel, PHP, MySQL, and JQuery.
+                        </li>
+                        <li>Worked on API integrations, authentication systems, and database optimizations to enhance
+                          application performance.</li>
+                        <li>Collaborated with front-end developers and designers to deliver user-friendly interfaces.
+                        </li>
+                      </ul>
+                      <h5>Key Projects:</h5>
+                      <ul>
+                        <li><strong>DIGI Homes (Real Estate Platform):</strong> Developed a property listing and booking
+                          system with search filters.
+                          Includes Admin panel for management and Agent panel for listings.
+                          Supports Google Login, property listings, client interactions, and
+                          Google Places</li>
+                        <li><strong>School Management System:</strong> Developed a system to manage students, teachers,
+                          attendance,
+                          exams, and reports.
+                          Includes Admin panel for overall management, Student panel for
+                          accessing study materials and results, and Parent panel for
+                          monitoring attendance and performance</li>
+                        <li><strong>WOYE (Multi-Vendor Web & App):</strong> Developed a multi-vendor platform with
+                          Admin, Restaurant,
+                          Pharmacy, and Grocery panels.
+                          Implemented multi-vendor authentication and integrated a third-
+                          party location API.
+                          Built RESTful APIs for smooth communication and data sync across
+                          panels.
+                          Applied multiple Cron jobs and job scheduling to automate email
+                          sending</li>
+                      </ul>
+                      <p></p>
 
-              <h5>Key Project:</h5>
-              <ul>
-                <li><strong>Product Management System:</strong> Built a robust product management platform with
-                  role-based access control, allowing different user roles (admin, manager, employee) to manage
-                  products, categories, and inventory efficiently.</li>
-              </ul>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">D2 Code Lab Technologies Pvt. Ltd., Ellenabad, Haryana</h4>
+                      <span class="period">Sep, 2023 - Feb, 2024</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Laravel Developer</h3>
+                      <p class="description">
+                        At D2 Code Lab, I contributed to the full lifecycle of Laravel-based projects, from planning and
+                        development to deployment. My role involved working closely with teams to implement secure user
+                        access, optimize database performance, and deliver clean, maintainable code.
+                      </p>
+
+                      <ul>
+                        <li>Developed and maintained web applications using Laravel, ensuring scalability and security.
+                        </li>
+                        <li>Implemented role-based access control (RBAC) with custom roles and permissions for secure
+                          user
+                          management.</li>
+                        <li>Optimized database queries and application performance for better efficiency.</li>
+                      </ul>
+
+                      <h5>Key Project:</h5>
+                      <ul>
+                        <li>
+                          <strong>Product Management System:</strong> Built a robust product management platform with
+                          role-based access control, allowing different user roles (admin, manager, employee) to manage
+                          products, categories, and inventory efficiently.
+                        </li>
+                        <li>
+                          <strong>E-Mail System:</strong> In this project I have use three technologies like Laravel,
+                          JavaScript,
+                          Ajax by which we send a bulk email to all selected user which has
+                          been imported through excel.
+                          In this project import bulk data through csv and sending bulk e-mail.
+                        </li>
+                      </ul>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="resume-block" data-aos="fade-up" data-aos-delay="100">
+                <h2>My Education</h2>
+                <p class="lead">
+                  Educational background focused on language, literature, and foundational computer skills, enhancing
+                  both communication and technical abilities.
+                </p>
+
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Maharaja Ganga Singh University, Bikaner</h4>
+                      <span class="period">2021–2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Master of Arts (MA) in Hindi</h3>
+                      <p class="description">
+                        Gained in-depth knowledge of Hindi literature, linguistics, and creative writing, strengthening
+                        analytical and communication skills.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">Vardhman Mahaveer Open University, Kota</h4>
+                      <span class="period">Jan 2022 – Jun 2022</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">RS-CIT Certification</h3>
+                      <p class="description">
+                        Completed foundational training in computer applications including operating systems, internet
+                        usage, and basic programming concepts.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
+
       </div>
-    </section>
-    <!-- /Resume Section -->
+
+    </section><!-- /Resume Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -383,136 +504,150 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Showcasing innovative and scalable web solutions, built with precision and performance in mind.</p>
-
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Explore some of the projects I’ve worked on, showcasing my skills in Laravel, PHP, and web development.</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul><!-- End Portfolio Filters -->
+          <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active">All Work</li>
+              <li data-filter=".filter-web">Web Design</li>
+              <li data-filter=".filter-graphics">Graphics</li>
+              <li data-filter=".filter-motion">Motion</li>
+              <li data-filter=".filter-brand">Branding</li>
+            </ul>
+          </div>
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <!-- <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Web Design</span>
+                  <h3>Modern Dashboard Interface</h3>
+                  <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p>
+                </div>
               </div>
-            </div>
+            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-card">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-10.webp" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
+                      <!-- <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Graphics</span>
+                  <h3>Creative Brand Identity</h3>
+                  <p>Vestibulum id ligula porta felis euismod semper at vulputate.</p>
+                </div>
               </div>
-            </div>
+            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-motion">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
+                      <!-- <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Motion</span>
+                  <h3>Product Animation Reel</h3>
+                  <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
+                </div>
               </div>
-            </div>
+            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
+                      <!-- <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Branding</span>
+                  <h3>Luxury Brand Package</h3>
+                  <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
+                </div>
               </div>
-            </div>
+            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-card">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                      <!-- <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Web Design</span>
+                  <h3>E-commerce Platform</h3>
+                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
               </div>
-            </div>
+            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-11.webp" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-11.webp" class="glightbox preview-link"
+                        data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
+                      <!-- <a href="#" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">Graphics</span>
+                  <h3>Digital Art Collection</h3>
+                  <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-card">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="javascript:void(0);" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
+            </div><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
 
@@ -522,346 +657,416 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>We provide a wide range of professional services to help businesses and individuals thrive in the digital
-          world. Our expertise ensures innovative solutions tailored to your specific needs.</p>
-
-      </div>
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
-                  </path>
-                </svg>
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="javascript:void(0);" class="stretched-link">
-                <h3>Web Development</h3>
-              </a>
-              <p>We build high-performance, scalable, and user-friendly websites to enhance your online presence and
-                achieve your business goals.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
-                  </path>
-                </svg>
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="javascript:void(0);" class="stretched-link">
-                <h3>Digital Marketing</h3>
-              </a>
-              <p>Boost your brand visibility with our expert digital marketing strategies, including SEO, PPC, and
-                social media marketing.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
-                  </path>
-                </svg>
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="javascript:void(0);" class="stretched-link">
-                <h3>UI/UX Design</h3>
-              </a>
-              <p>Create seamless and visually appealing user experiences with intuitive designs that enhance engagement
-                and usability.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-red position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
-                  </path>
-                </svg>
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="javascript:void(0);" class="stretched-link">
-                <h3>IT Consultancy</h3>
-              </a>
-              <p>Get expert guidance and strategic insights to optimize your IT infrastructure and improve overall
-                business efficiency.</p>
-              <a href="javascript:void(0);" class="stretched-link"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item item-indigo position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572">
-                  </path>
-                </svg>
-                <i class="bi bi-calendar4-week icon"></i>
-              </div>
-              <a href="javascript:void(0);" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
-                alias eius labore.</p>
-              <a href="javascript:void(0);" class="stretched-link"></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item item-pink position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
-                  </path>
-                </svg>
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="javascript:void(0);" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
-                recusandae ducimus enim.</p>
-              <a href="javascript:void(0);" class="stretched-link"></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <section id="testimonials" class="testimonials section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>What clients and colleagues say about my work and expertise in Laravel development.</p>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>What clients and colleagues say about my work, professionalism, and contributions to their projects.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
+        <div class="testimonials-slider swiper init-swiper">
           <script type="application/json" class="swiper-config">
             {
+              "slidesPerView": 1,
               "loop": true,
               "speed": 600,
               "autoplay": {
                 "delay": 5000
               },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
               }
             }
           </script>
+
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Bhoop Singh is a highly skilled Laravel developer. His ability to build scalable and
-                          secure web applications is impressive.
-                          His problem-solving approach makes him an asset to any team.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Professional and Efficient</h2>
+                    <p>
+                      Bhoop Singh delivered our project on time and with great attention to detail. The entire process
+                      was smooth, and he was responsive to all feedback.
+                    </p>
+                    <p>
+                      His technical knowledge, especially in Laravel, helped us build a fast, secure, and scalable web
+                      application. Highly recommended!
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-7.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Saul Goodman</h3>
+                        <span>Client</span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-7.webp" class="featured-img" alt="">
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Testimonial Item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>I worked with Bhoop Singh on a School Management System project. His attention to detail
-                          and backend expertise made the project a success.
-                        </span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Reliable and Skilled Developer</h2>
+                    <p>
+                      Working with Bhoop Singh was a great experience. He handled both front-end and back-end
+                      development with expertise and clarity.
+                    </p>
+                    <p>
+                      His code is clean, and he’s always quick to address any challenges. I’d gladly work with him again
+                      on future projects.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-8.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Sara Wilsson</h3>
+                        <span>Designer</span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-8.webp" class="featured-img" alt="">
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Testimonial Item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Bhoop Singh developed a Multi-Vendor Web & App for our company. The functionality and
-                          performance exceeded our expectations. Highly recommended!
-                        </span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Excellent Problem Solver</h2>
+                    <p>
+                      Bhoop Singh helped us solve some complex issues in our multi-vendor platform. His logical thinking
+                      and hands-on coding made a real difference.
+                    </p>
+                    <p>
+                      He’s proactive, easy to communicate with, and dedicated to delivering high-quality work.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-9.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Matt Brandon</h3>
+                        <span>Freelancer</span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-9.webp" class="featured-img" alt="">
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Testimonial Item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Bhoop Singh developed a Multi-Vendor Web & App for our company. The functionality and
-                          performance exceeded our expectations. Highly recommended!
-                        </span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Outstanding Project Delivery</h2>
+                    <p>
+                      From concept to deployment, Bhoop Singh managed everything with great precision. The app runs
+                      smoothly and meets all our requirements.
+                    </p>
+                    <p>
+                      He goes above and beyond to ensure client satisfaction. I highly recommend his services to anyone
+                      needing a professional Laravel developer.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-10.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Jena Karlis</h3>
+                        <span>Store Owner</span>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-10.webp" class="featured-img" alt="">
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Testimonial Item -->
 
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div class="swiper-navigation w-100 d-flex align-items-center justify-content-center">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
         </div>
 
       </div>
 
     </section><!-- /Testimonials Section -->
 
-    
-
-    <section id="contact" class="services section">
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Feel free to reach out for collaborations, project inquiries, or any Laravel development-related discussions.
+        <h2>Our Services</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>
+          We offer a comprehensive range of digital services to help businesses grow, streamline operations, and
+          deliver exceptional user experiences. From web development to digital marketing—we've got you covered.
         </p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h2 class="fw-bold mb-4 servies-title">Transforming Ideas Into Digital Solutions</h2>
+            <p class="mb-4">Our team specializes in building scalable, secure, and performance-driven platforms tailored
+              to your business goals. We combine creativity with technical expertise to bring your vision to life.</p>
+            <a href="#" class="btn btn-outline-primary">Explore All Services</a>
+          </div>
+          <div class="col-lg-8">
+            <div class="row g-4">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item">
+                  <i class="bi bi-code-slash icon"></i>
+                  <h3><a href="#">Web Development</a></h3>
+                  <p>Custom websites and web apps built with modern frameworks like Laravel, React, and Vue for speed,
+                    security, and scalability.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item">
+                  <i class="bi bi-phone icon"></i>
+                  <h3><a href="#">Mobile App Development</a></h3>
+                  <p>iOS and Android apps with intuitive UX and robust functionality, tailored for startups and
+                    enterprises alike.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-item">
+                  <i class="bi bi-bar-chart-line icon"></i>
+                  <h3><a href="#">Digital Marketing</a></h3>
+                  <p>SEO, social media, and PPC campaigns designed to drive traffic, generate leads, and boost your
+                    online presence.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item">
+                  <i class="bi bi-shield-lock icon"></i>
+                  <h3><a href="#">Cybersecurity & Maintenance</a></h3>
+                  <p>Ensure your digital assets are secure, up-to-date, and running smoothly with our proactive support
+                    and security services.</p>
+                </div>
+              </div><!-- End Service Item -->
+
+            </div>
+          </div>
+        </div>
+
       </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Here are answers to some of the common questions clients and collaborators ask.</p>
+
+      </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row justify-content-center">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
-                  </path>
-                </svg>
-                <i class="bi bi-geo-alt"></i>
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>What technologies do you specialize in?</h3>
+                <div class="faq-content">
+                  <p>I specialize in Laravel, PHP, MySQL, JavaScript, jQuery, and REST APIs. I also work with front-end
+                    tools like Bootstrap and handle deployment using tools like Git and cPanel.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
-              <a href="https://www.google.com/maps/place/Jaipur,+Rajasthan,+India" target="_blank" class="stretched-link">
-                <h3>Address</h3>
-              </a>
-              <p>Jaipur, Rajasthan, India</p>
+
+              <div class="faq-item">
+                <h3>Can you build custom web applications from scratch?</h3>
+                <div class="faq-content">
+                  <p>Yes, I can build fully customized web applications tailored to specific business needs. From
+                    database architecture to front-end UI, I ensure everything is scalable and user-friendly.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>Do you provide ongoing support and maintenance?</h3>
+                <div class="faq-content">
+                  <p>Absolutely. I offer maintenance packages that include bug fixing, updates, performance
+                    optimization, and feature enhancements based on your business growth.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>How do you ensure the security of your applications?</h3>
+                <div class="faq-content">
+                  <p>I follow Laravel’s best practices for security, including input validation, CSRF protection, hashed
+                    passwords, role-based access control, and secure API authentication.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>What is your typical project delivery time?</h3>
+                <div class="faq-content">
+                  <p>Project timelines depend on the complexity and scope. For standard projects, it typically ranges
+                    from 2 to 6 weeks. I ensure clear milestones and updates throughout.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>Can you integrate third-party services or APIs?</h3>
+                <div class="faq-content">
+                  <p>Yes, I’ve integrated various APIs including payment gateways (Stripe, Razorpay), SMS gateways,
+                    Google Maps, and social logins. I ensure smooth integration and reliability.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="content" data-aos="fade-up" data-aos-delay="200">
+              <div class="section-category mb-3">Contact</div>
+              <h2 class="display-5 mb-4">Get in Touch</h2>
+              <p class="lead mb-4">Have a project in mind or just want to say hello? Feel free to reach out, and I’ll
+                get back to you as soon as possible.</p>
+
+
+              <div class="contact-info mt-5">
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-envelope-at me-3"></i>
+                  <a href="mailto:jassisuthar8555@gmail.com" class="text-decoration-none text-dark">
+                    jassisuthar8555@gmail.com
+                  </a>
+                </div>
+
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-telephone me-3"></i>
+                  <a href="tel:+917734855403" class="text-decoration-none text-dark">
+                    +91 77348-55403
+                  </a>
+                </div>
+
+                <div class="info-item d-flex mb-4">
+                  <i class="bi bi-geo-alt me-3"></i>
+                  <a href="https://maps.google.com/?q=Sardarpura+Khalsa,+Hanumangarh,+Rajasthan+335524" target="_blank"
+                    class="text-decoration-none text-dark">
+                    Sardarpura (Khalsa), Hanumangarh, Rajasthan 335524
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
-                  </path>
-                </svg>
-                <i class="bi bi-telephone"></i>
-              </div>
-              <a href="tel:+917734855403" class="stretched-link">
-                <h3>Call Us</h3>
-              </a>
-              <p>+91 77348-55403</p>
-            </div>
-          </div>
+          <div class="col-lg-6">
+            <div class="contact-form card" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-body p-4 p-lg-5">
+                <iframe
+                  src="https://www.google.com/maps?q=Sardarpura+Khalsa,+Hanumangarh,+Rajasthan+335524&output=embed"
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  
+                <!-- <form action="#" method="post" class="php-email-form">
+                  <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                    d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
-                  </path>
-                </svg>
-                <i class="bi bi-envelope"></i>
+                    <div class="col-12">
+                      <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    </div>
+
+                    <div class="col-12 ">
+                      <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                    </div>
+
+                    <div class="col-12">
+                      <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    </div>
+
+                    <div class="col-12">
+                      <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                        required=""></textarea>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                      <button type="submit" disabled class="btn btn-submit w-100">Submit Message</button>
+                    </div>
+
+                  </div>
+                </form> -->
+
               </div>
-              <a href="mailto:jassisuthar8555@gmail.com" class="stretched-link">
-                <h3>Email Us</h3>
-              </a>
-              <p>jassisuthar8555@gmail.com</p>
             </div>
           </div>
 
@@ -869,41 +1074,35 @@
 
       </div>
 
-    </section>
+    </section><!-- /Contact Section -->
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
+  <footer id="footer" class="footer">
+
     <div class="container">
-      <h3 class="sitename">BhoopSingh</h3>
-      <p>Building scalable, high-performance applications with a focus on innovation.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://www.linkedin.com/in/bhoop-singh"><i class="bi bi-linkedin"></i></a>
-        <a href="https://join.skype.com/invite/s22pYKg61NjJ"><i class="bi bi-skype"></i></a>
-        <a href="https://www.instagram.com/jassi_suthar_007"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.facebook.com/jassi.suthar/"><i class="bi bi-facebook"></i></a>
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Bhoop Singh</strong> <span>All Rights Reserved</span>
+        </p>
       </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">BhoopSingh</strong> <span>All Rights Reserved</span>
-        </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://join.skype.com/invite/s22pYKg61NjJ"><i class="bi bi-skype"></i></a>
+        <a href="https://www.facebook.com/jassi.suthar/"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/jassi_suthar_007"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/bhoop-singh"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
+
   </footer>
 
   <!-- Scroll Top -->
-  <a href="javascript:void(0);" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
