@@ -31,7 +31,7 @@
       };
 
       // 🔹 Send email using EmailJS
-      emailjs.send("service_b5k080v", "template_vvhk82h", templateParams).then(function (response) {
+      emailjs.send("service_om2g6c9", "template_vvhk82h", templateParams).then(function (response) {
           loading.classList.remove('d-block');
           sentMessage.classList.add('d-block');
           submitBtn.disabled = false;
